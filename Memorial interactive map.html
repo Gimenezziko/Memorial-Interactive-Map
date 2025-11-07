@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_47e769acbb6c83ef0a80b4ad2ada967b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_47e769acbb6c83ef0a80b4ad2ada967b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_47e769acbb6c83ef0a80b4ad2ada967b = L.map(
+                "map_47e769acbb6c83ef0a80b4ad2ada967b",
+                {
+                    center: [12.8797, 121.774],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7cbbfdef1157efec2cc0811d41369fc6 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+            var marker_55e64745ef649e324fafe8bd29db6f1d = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_0659374bf693c8c9f919da9b8f7b14ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5f864fee572ce3f0e4c93e024e066da = $(`<div id="html_f5f864fee572ce3f0e4c93e024e066da" style="width: 100.0%; height: 100.0%;">     <b>Albert Rivera Enriquez</b><br>     —<br>     <i>Date of Disappearance:</i> August 29, 1985<br>     <a href="Albert Enriquez - Bantayog ng mga Bayani" target="_blank">More Info</a>     </div>`)[0];
+            popup_0659374bf693c8c9f919da9b8f7b14ad.setContent(html_f5f864fee572ce3f0e4c93e024e066da);
+        
+
+        marker_55e64745ef649e324fafe8bd29db6f1d.bindPopup(popup_0659374bf693c8c9f919da9b8f7b14ad)
+        ;
+
+        
+    
+    
+            var marker_5626084b35965e42dc2edc9ba8aa8220 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_dc9b200cb2fc5881dd003dd2b528320e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46fde0e53907e14d281fd6f34168b018 = $(`<div id="html_46fde0e53907e14d281fd6f34168b018" style="width: 100.0%; height: 100.0%;">     <b>Ma. Leticia Pascual-Ladlad</b><br>     —<br>     <i>Date of Disappearance:</i> November 28, 1975<br>     <a href="https://bantayogngmgabayani.org/bayani/leticia-tish-pascual-ladlad/" target="_blank">More Info</a>     </div>`)[0];
+            popup_dc9b200cb2fc5881dd003dd2b528320e.setContent(html_46fde0e53907e14d281fd6f34168b018);
+        
+
+        marker_5626084b35965e42dc2edc9ba8aa8220.bindPopup(popup_dc9b200cb2fc5881dd003dd2b528320e)
+        ;
+
+        
+    
+    
+            var marker_dec52031834b33e4a33b02873a237e7a = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_e683fba4af4bd6acdab5df54a4afe51a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da75e1b5720da3e89658663048f9a209 = $(`<div id="html_da75e1b5720da3e89658663048f9a209" style="width: 100.0%; height: 100.0%;">     <b>Rizalina P. Ilagan</b><br>     —<br>     <i>Date of Disappearance:</i> July 31, 1977<br>     <a href="https://bantayogngmgabayani.org/bayani/rizalina-ilagan/" target="_blank">More Info</a>     </div>`)[0];
+            popup_e683fba4af4bd6acdab5df54a4afe51a.setContent(html_da75e1b5720da3e89658663048f9a209);
+        
+
+        marker_dec52031834b33e4a33b02873a237e7a.bindPopup(popup_e683fba4af4bd6acdab5df54a4afe51a)
+        ;
+
+        
+    
+    
+            var marker_847698c68e4104a84c6a0dde63556b2a = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_260080da52ea38fcf367d1c7b259d779 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14448c804fc742f1af8669d0db83741b = $(`<div id="html_14448c804fc742f1af8669d0db83741b" style="width: 100.0%; height: 100.0%;">     <b>Ronald Jan F. Quimpo</b><br>     —<br>     <i>Date of Disappearance:</i> October 29, 1977<br>     <a href="https://bantayogngmgabayani.org/bayani/ronald-jan-quimpo/" target="_blank">More Info</a>     </div>`)[0];
+            popup_260080da52ea38fcf367d1c7b259d779.setContent(html_14448c804fc742f1af8669d0db83741b);
+        
+
+        marker_847698c68e4104a84c6a0dde63556b2a.bindPopup(popup_260080da52ea38fcf367d1c7b259d779)
+        ;
+
+        
+    
+    
+            var marker_28f3d9d3eba7493bd7734e4d69ac4dd8 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_5adacab5a1458495a2cea6d4ce86b093 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_882d091f7a28b1d836136ef3c71b1de3 = $(`<div id="html_882d091f7a28b1d836136ef3c71b1de3" style="width: 100.0%; height: 100.0%;">     <b>Emmanuel Alvarez</b><br>     —<br>     <i>Date of Disappearance:</i> January 6, 1976<br>     <a href="https://bantayogngmgabayani.org/bayani/emmanuel-alvarez/" target="_blank">More Info</a>     </div>`)[0];
+            popup_5adacab5a1458495a2cea6d4ce86b093.setContent(html_882d091f7a28b1d836136ef3c71b1de3);
+        
+
+        marker_28f3d9d3eba7493bd7734e4d69ac4dd8.bindPopup(popup_5adacab5a1458495a2cea6d4ce86b093)
+        ;
+
+        
+    
+    
+            var marker_90c44c80ae5a0ce2a195e6085a90edaf = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_7f292333c5b0af8f805d62fdfd319cee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0fec81e1e5648e18caceb7921460f63 = $(`<div id="html_b0fec81e1e5648e18caceb7921460f63" style="width: 100.0%; height: 100.0%;">     <b>Charlie Del Rosario</b><br>     —<br>     <i>Date of Disappearance:</i> March 19, 1971<br>     <a href="https://bantayogngmgabayani.org/bayani/charlie-del-rosario/" target="_blank">More Info</a>     </div>`)[0];
+            popup_7f292333c5b0af8f805d62fdfd319cee.setContent(html_b0fec81e1e5648e18caceb7921460f63);
+        
+
+        marker_90c44c80ae5a0ce2a195e6085a90edaf.bindPopup(popup_7f292333c5b0af8f805d62fdfd319cee)
+        ;
+
+        
+    
+    
+            var marker_d89a42108bf0c16f2bcc12fb4510eb16 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_ab2dabe84d92829e4219a3f861ca9c29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8feb581ddff456e1c6a878b4640055d2 = $(`<div id="html_8feb581ddff456e1c6a878b4640055d2" style="width: 100.0%; height: 100.0%;">     <b>Sales, Jessica Mendez</b><br>     —<br>     <i>Date of Disappearance:</i> July 30, 1977<br>     <a href="https://bantayogngmgabayani.org/bayani/jessica-sales/" target="_blank">More Info</a>     </div>`)[0];
+            popup_ab2dabe84d92829e4219a3f861ca9c29.setContent(html_8feb581ddff456e1c6a878b4640055d2);
+        
+
+        marker_d89a42108bf0c16f2bcc12fb4510eb16.bindPopup(popup_ab2dabe84d92829e4219a3f861ca9c29)
+        ;
+
+        
+    
+    
+            var marker_224884ff310aff49e2fc382e37f82d57 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_cc1d82b27360c3cc63688b2ad1935ff3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43b6bb51fe4dd86483781cb5a8865acc = $(`<div id="html_43b6bb51fe4dd86483781cb5a8865acc" style="width: 100.0%; height: 100.0%;">     <b>Faustino, Gerardo T.
+</b><br>     —<br>     <i>Date of Disappearance:</i> July 31, 1977<br>     <a href="https://bantayogngmgabayani.org/bayani/gerry-faustino/" target="_blank">More Info</a>     </div>`)[0];
+            popup_cc1d82b27360c3cc63688b2ad1935ff3.setContent(html_43b6bb51fe4dd86483781cb5a8865acc);
+        
+
+        marker_224884ff310aff49e2fc382e37f82d57.bindPopup(popup_cc1d82b27360c3cc63688b2ad1935ff3)
+        ;
+
+        
+    
+    
+            var marker_9ce35cdc31c3b82924a73c4a43a3758a = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_6d0a673e077516b472e409a9761a4e5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60e6dd9d5eb67c64b121114412706623 = $(`<div id="html_60e6dd9d5eb67c64b121114412706623" style="width: 100.0%; height: 100.0%;">     <b>Jasul, Ramon Villaflor
+</b><br>     —<br>     <i>Date of Disappearance:</i> July 31, 1977<br>     <a href="https://bantayogngmgabayani.org/bayani/ramon-jasul/" target="_blank">More Info</a>     </div>`)[0];
+            popup_6d0a673e077516b472e409a9761a4e5f.setContent(html_60e6dd9d5eb67c64b121114412706623);
+        
+
+        marker_9ce35cdc31c3b82924a73c4a43a3758a.bindPopup(popup_6d0a673e077516b472e409a9761a4e5f)
+        ;
+
+        
+    
+    
+            var marker_1cf08573646ba942f9feafb876c660bf = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_3cc2a9b26c386d47e96e77e767099648 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df69d16a4a4c8e5dc471e5644c47e9c5 = $(`<div id="html_df69d16a4a4c8e5dc471e5644c47e9c5" style="width: 100.0%; height: 100.0%;">     <b>Catalla, Cristina F.
+ </b><br>     —<br>     <i>Date of Disappearance:</i> July 31, 1977<br>     <a href="https://bantayogngmgabayani.org/bayani/cristina-catalla/" target="_blank">More Info</a>     </div>`)[0];
+            popup_3cc2a9b26c386d47e96e77e767099648.setContent(html_df69d16a4a4c8e5dc471e5644c47e9c5);
+        
+
+        marker_1cf08573646ba942f9feafb876c660bf.bindPopup(popup_3cc2a9b26c386d47e96e77e767099648)
+        ;
+
+        
+    
+    
+            var marker_419a5bfd86e1a687f82d9a312152d986 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_7bdf3fecb0b072ca3c466ad22d7a8d89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9a7a7bf900cbfd7bb0cbd9b603481d8 = $(`<div id="html_b9a7a7bf900cbfd7bb0cbd9b603481d8" style="width: 100.0%; height: 100.0%;">     <b>Alvarez, Emmanuel I.</b><br>     —<br>     <i>Date of Disappearance:</i> January 6, 1976<br>     <a href="https://bantayogngmgabayani.org/bayani/emmanuel-alvarez/" target="_blank">More Info</a>     </div>`)[0];
+            popup_7bdf3fecb0b072ca3c466ad22d7a8d89.setContent(html_b9a7a7bf900cbfd7bb0cbd9b603481d8);
+        
+
+        marker_419a5bfd86e1a687f82d9a312152d986.bindPopup(popup_7bdf3fecb0b072ca3c466ad22d7a8d89)
+        ;
+
+        
+    
+    
+            var marker_a9468af9026605350b4e643dbd5b5c9d = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_0ffe4b951e8f49b24aa432c810660572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9faa51a14bb5469a5f35a53d55770885 = $(`<div id="html_9faa51a14bb5469a5f35a53d55770885" style="width: 100.0%; height: 100.0%;">     <b>Crismo, Romeo Guilao</b><br>     —<br>     <i>Date of Disappearance:</i> August 12, 1980<br>     <a href="https://bantayogngmgabayani.org/bayani/romeo-crismo/" target="_blank">More Info</a>     </div>`)[0];
+            popup_0ffe4b951e8f49b24aa432c810660572.setContent(html_9faa51a14bb5469a5f35a53d55770885);
+        
+
+        marker_a9468af9026605350b4e643dbd5b5c9d.bindPopup(popup_0ffe4b951e8f49b24aa432c810660572)
+        ;
+
+        
+    
+    
+            var marker_1001139fe9133e58d409ad222fbfce5b = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_bd9214a84e90ba48f606f6a30c699f3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_295e7798ebce39b2b0ce210c8f31eba9 = $(`<div id="html_295e7798ebce39b2b0ce210c8f31eba9" style="width: 100.0%; height: 100.0%;">     <b>Del Rosario, Carlos B.</b><br>     —<br>     <i>Date of Disappearance:</i> March 19, 1971<br>     <a href="https://bantayogngmgabayani.org/bayani/charlie-del-rosario/" target="_blank">More Info</a>     </div>`)[0];
+            popup_bd9214a84e90ba48f606f6a30c699f3e.setContent(html_295e7798ebce39b2b0ce210c8f31eba9);
+        
+
+        marker_1001139fe9133e58d409ad222fbfce5b.bindPopup(popup_bd9214a84e90ba48f606f6a30c699f3e)
+        ;
+
+        
+    
+    
+            var marker_c0e81e4781782e4709fe187504f7d1fd = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_13edb1d131f490e31ff6ab08348d71c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2223ddda1511b9b4b50425f81bfd51ff = $(`<div id="html_2223ddda1511b9b4b50425f81bfd51ff" style="width: 100.0%; height: 100.0%;">     <b>Manaog, Rodelo Zabala
+</b><br>     —<br>     <i>Date of Disappearance:</i> June 21, 1984<br>     <a href="https://bantayogngmgabayani.org/bayani/rodelo-manaog/" target="_blank">More Info</a>     </div>`)[0];
+            popup_13edb1d131f490e31ff6ab08348d71c4.setContent(html_2223ddda1511b9b4b50425f81bfd51ff);
+        
+
+        marker_c0e81e4781782e4709fe187504f7d1fd.bindPopup(popup_13edb1d131f490e31ff6ab08348d71c4)
+        ;
+
+        
+    
+    
+            var marker_3d809b5d5883ffc7a5ad05c3b82441be = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_7446f82040a4b601d2c85020d7c5d286 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61e67a685a2ea3134d4e3db7c0e8d6fc = $(`<div id="html_61e67a685a2ea3134d4e3db7c0e8d6fc" style="width: 100.0%; height: 100.0%;">     <b>Pascual-Ladlad, Ma. Leticia  Quintina Jimenez</b><br>     —<br>     <i>Date of Disappearance:</i> November 28, 1975<br>     <a href="https://bantayogngmgabayani.org/bayani/leticia-tish-pascual-ladlad/" target="_blank">More Info</a>     </div>`)[0];
+            popup_7446f82040a4b601d2c85020d7c5d286.setContent(html_61e67a685a2ea3134d4e3db7c0e8d6fc);
+        
+
+        marker_3d809b5d5883ffc7a5ad05c3b82441be.bindPopup(popup_7446f82040a4b601d2c85020d7c5d286)
+        ;
+
+        
+    
+    
+            var marker_7b4e47c57777c93dc9ee49ae712a3d61 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_27affdb2437ac4040688614bbbf2d80b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_185c995e1771e25a0645a2b855e38ce5 = $(`<div id="html_185c995e1771e25a0645a2b855e38ce5" style="width: 100.0%; height: 100.0%;">     <b>Reyes, Victor Dandan</b><br>     —<br>     <i>Date of Disappearance:</i> May 11, 1977<br>     <a href="https://bantayogngmgabayani.org/bayani/victor-reyes/" target="_blank">More Info</a>     </div>`)[0];
+            popup_27affdb2437ac4040688614bbbf2d80b.setContent(html_185c995e1771e25a0645a2b855e38ce5);
+        
+
+        marker_7b4e47c57777c93dc9ee49ae712a3d61.bindPopup(popup_27affdb2437ac4040688614bbbf2d80b)
+        ;
+
+        
+    
+    
+            var marker_63abb616833262e95c50c33499c1a16c = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_6bd165de5aa81d9870dfdc8516337850 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3e327384c9267e348a5d32d9f4cc616 = $(`<div id="html_c3e327384c9267e348a5d32d9f4cc616" style="width: 100.0%; height: 100.0%;">     <b>Tayag, Carlos Nuqui</b><br>     —<br>     <i>Date of Disappearance:</i> August 17, 1976<br>     <a href="https://bantayogngmgabayani.org/bayani/carlos-tayag/" target="_blank">More Info</a>     </div>`)[0];
+            popup_6bd165de5aa81d9870dfdc8516337850.setContent(html_c3e327384c9267e348a5d32d9f4cc616);
+        
+
+        marker_63abb616833262e95c50c33499c1a16c.bindPopup(popup_6bd165de5aa81d9870dfdc8516337850)
+        ;
+
+        
+    
+    
+            var marker_08b1239046a71297e01348b3731386f5 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_4e2162cf5e4c370f59b69c878a17958b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_795ec31cad7d92300a511127ce9cfbfc = $(`<div id="html_795ec31cad7d92300a511127ce9cfbfc" style="width: 100.0%; height: 100.0%;">     <b>Torres, Alex Gabriel
+</b><br>     —<br>     <i>Date of Disappearance:</i> January 1, 1975<br>     <a href="https://bantayogngmgabayani.org/bayani/alex-torres/" target="_blank">More Info</a>     </div>`)[0];
+            popup_4e2162cf5e4c370f59b69c878a17958b.setContent(html_795ec31cad7d92300a511127ce9cfbfc);
+        
+
+        marker_08b1239046a71297e01348b3731386f5.bindPopup(popup_4e2162cf5e4c370f59b69c878a17958b)
+        ;
+
+        
+    
+    
+            var marker_b36f0fa1abaa74288d6abf0329c094d3 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_d74da7d2a08a2fae971f76fe115c8dbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0946dced1307e95a703bc212c624ecd3 = $(`<div id="html_0946dced1307e95a703bc212c624ecd3" style="width: 100.0%; height: 100.0%;">     <b>Villacillo, Venerando David
+</b><br>     —<br>     <i>Date of Disappearance:</i> June 10, 1985<br>     <a href="https://bantayogngmgabayani.org/bayani/venerando-villacillo/" target="_blank">More Info</a>     </div>`)[0];
+            popup_d74da7d2a08a2fae971f76fe115c8dbc.setContent(html_0946dced1307e95a703bc212c624ecd3);
+        
+
+        marker_b36f0fa1abaa74288d6abf0329c094d3.bindPopup(popup_d74da7d2a08a2fae971f76fe115c8dbc)
+        ;
+
+        
+    
+    
+            var marker_5d64c5e123ff6890d89507399d985c59 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_00d4ac7bc723b48bba50556faf5c7aff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39fd115fa373c145c00b7dc6ea567c86 = $(`<div id="html_39fd115fa373c145c00b7dc6ea567c86" style="width: 100.0%; height: 100.0%;">     <b>Yap, Emmanuel “Manny”  del Rosario </b><br>     —<br>     <i>Date of Disappearance:</i> February 12, 1976<br>     <a href="https://bantayogngmgabayani.org/bayani/manny-yap/" target="_blank">More Info</a>     </div>`)[0];
+            popup_00d4ac7bc723b48bba50556faf5c7aff.setContent(html_39fd115fa373c145c00b7dc6ea567c86);
+        
+
+        marker_5d64c5e123ff6890d89507399d985c59.bindPopup(popup_00d4ac7bc723b48bba50556faf5c7aff)
+        ;
+
+        
+    
+    
+            var marker_0623d25c469484b9d7348fc1fa1b0b84 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_afc0893fb187dd8e7832e7d8962079c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c4432e97ca22fbd136ad82db0fd95dd = $(`<div id="html_4c4432e97ca22fbd136ad82db0fd95dd" style="width: 100.0%; height: 100.0%;">     <b>Ybañez, Rolando Ylagan
+</b><br>     —<br>     <i>Date of Disappearance:</i> July 11, 1985<br>     <a href="https://bantayogngmgabayani.org/bayani/ybanez-rolando-ylagan/" target="_blank">More Info</a>     </div>`)[0];
+            popup_afc0893fb187dd8e7832e7d8962079c3.setContent(html_4c4432e97ca22fbd136ad82db0fd95dd);
+        
+
+        marker_0623d25c469484b9d7348fc1fa1b0b84.bindPopup(popup_afc0893fb187dd8e7832e7d8962079c3)
+        ;
+
+        
+    
+    
+            var marker_4586d04737a713025d5c649650ab3bd1 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_7d398ee7338da03383e973090b2aea3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3438b22fc2fbe4b40343708a70a9aff = $(`<div id="html_f3438b22fc2fbe4b40343708a70a9aff" style="width: 100.0%; height: 100.0%;">     <b>Ontong, Manuel “Manny” Farma
+</b><br>     —<br>     <i>Date of Disappearance:</i> November 26, 1975<br>     <a href="https://bantayogngmgabayani.org/bayani/manny-ontong/" target="_blank">More Info</a>     </div>`)[0];
+            popup_7d398ee7338da03383e973090b2aea3b.setContent(html_f3438b22fc2fbe4b40343708a70a9aff);
+        
+
+        marker_4586d04737a713025d5c649650ab3bd1.bindPopup(popup_7d398ee7338da03383e973090b2aea3b)
+        ;
+
+        
+    
+    
+            var marker_51bd1a1dd3ffb8f5cd991f72e0fed24f = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_0be54a531c2fcecd7393e6eccd1a48d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b36d798c3b523beb12f88580dd553dcb = $(`<div id="html_b36d798c3b523beb12f88580dd553dcb" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_0be54a531c2fcecd7393e6eccd1a48d8.setContent(html_b36d798c3b523beb12f88580dd553dcb);
+        
+
+        marker_51bd1a1dd3ffb8f5cd991f72e0fed24f.bindPopup(popup_0be54a531c2fcecd7393e6eccd1a48d8)
+        ;
+
+        
+    
+    
+            var marker_f30fdc1d8d72b8845a8ca0a9ca2eff6b = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_a17452edbc8e7e98a5a1257eb0bd35f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df3bbb3c9c1ec84e7f51aad4f3ea5645 = $(`<div id="html_df3bbb3c9c1ec84e7f51aad4f3ea5645" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_a17452edbc8e7e98a5a1257eb0bd35f4.setContent(html_df3bbb3c9c1ec84e7f51aad4f3ea5645);
+        
+
+        marker_f30fdc1d8d72b8845a8ca0a9ca2eff6b.bindPopup(popup_a17452edbc8e7e98a5a1257eb0bd35f4)
+        ;
+
+        
+    
+    
+            var marker_36affbb1c0a1cc2d8dc920750710f10a = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_042ee427513f7af622ab63bd59ba3a66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_784e699e9001839ed728ea090cecd210 = $(`<div id="html_784e699e9001839ed728ea090cecd210" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_042ee427513f7af622ab63bd59ba3a66.setContent(html_784e699e9001839ed728ea090cecd210);
+        
+
+        marker_36affbb1c0a1cc2d8dc920750710f10a.bindPopup(popup_042ee427513f7af622ab63bd59ba3a66)
+        ;
+
+        
+    
+    
+            var marker_2765f202cbd35c2a1006c06d9d5bbabc = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_2a20621aa04c1d8408abfc3308ab94ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2724c199bcb3b268b50c07f512aa4a1 = $(`<div id="html_c2724c199bcb3b268b50c07f512aa4a1" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_2a20621aa04c1d8408abfc3308ab94ce.setContent(html_c2724c199bcb3b268b50c07f512aa4a1);
+        
+
+        marker_2765f202cbd35c2a1006c06d9d5bbabc.bindPopup(popup_2a20621aa04c1d8408abfc3308ab94ce)
+        ;
+
+        
+    
+    
+            var marker_f71da6e58e1104933fff91a4c74e6b8c = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_600079ef0050205cbde507ad438aea5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f24a4e4055cda1952d0623570c9b6be = $(`<div id="html_1f24a4e4055cda1952d0623570c9b6be" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_600079ef0050205cbde507ad438aea5d.setContent(html_1f24a4e4055cda1952d0623570c9b6be);
+        
+
+        marker_f71da6e58e1104933fff91a4c74e6b8c.bindPopup(popup_600079ef0050205cbde507ad438aea5d)
+        ;
+
+        
+    
+    
+            var marker_eee7dc1b717a44c66fe62eeaa0337776 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_aa702cdc15b3cab951b89ec801057381 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cb24b9b441d37188e727cf20ebd8fa2 = $(`<div id="html_0cb24b9b441d37188e727cf20ebd8fa2" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_aa702cdc15b3cab951b89ec801057381.setContent(html_0cb24b9b441d37188e727cf20ebd8fa2);
+        
+
+        marker_eee7dc1b717a44c66fe62eeaa0337776.bindPopup(popup_aa702cdc15b3cab951b89ec801057381)
+        ;
+
+        
+    
+    
+            var marker_0769f48a1a905c4a1892bd436447cbc3 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_2bbcfe84a4eda64fa0a670432c41d87d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bf789f80794a2f51207e7cb52a5bdd2 = $(`<div id="html_1bf789f80794a2f51207e7cb52a5bdd2" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_2bbcfe84a4eda64fa0a670432c41d87d.setContent(html_1bf789f80794a2f51207e7cb52a5bdd2);
+        
+
+        marker_0769f48a1a905c4a1892bd436447cbc3.bindPopup(popup_2bbcfe84a4eda64fa0a670432c41d87d)
+        ;
+
+        
+    
+    
+            var marker_4ebf6942ced64f1172622a126f21bbbb = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_3e5e40cc3fe74de917cadac1342bf161 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88384beca4b39bbb799a1bba8676fb6b = $(`<div id="html_88384beca4b39bbb799a1bba8676fb6b" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_3e5e40cc3fe74de917cadac1342bf161.setContent(html_88384beca4b39bbb799a1bba8676fb6b);
+        
+
+        marker_4ebf6942ced64f1172622a126f21bbbb.bindPopup(popup_3e5e40cc3fe74de917cadac1342bf161)
+        ;
+
+        
+    
+    
+            var marker_cb904603e2117aac4f97be7c28e51a90 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_839122451941b3dfbc0e4d44960110cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fda61fab40c5ce71eeeaab5adf5ecfad = $(`<div id="html_fda61fab40c5ce71eeeaab5adf5ecfad" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_839122451941b3dfbc0e4d44960110cb.setContent(html_fda61fab40c5ce71eeeaab5adf5ecfad);
+        
+
+        marker_cb904603e2117aac4f97be7c28e51a90.bindPopup(popup_839122451941b3dfbc0e4d44960110cb)
+        ;
+
+        
+    
+    
+            var marker_360aad84f76f081a57ba366857fa6767 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_dc28a111fe7eddc4d3fa5975cd82101a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18293a543118ba7568cedc01d1eeb6b4 = $(`<div id="html_18293a543118ba7568cedc01d1eeb6b4" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_dc28a111fe7eddc4d3fa5975cd82101a.setContent(html_18293a543118ba7568cedc01d1eeb6b4);
+        
+
+        marker_360aad84f76f081a57ba366857fa6767.bindPopup(popup_dc28a111fe7eddc4d3fa5975cd82101a)
+        ;
+
+        
+    
+    
+            var marker_ded135370792970e91f572f46c9377e1 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_52fb07bc0c970256be4b665bfae2df09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2b71a387b3139e742ee7859d7ab0ae8 = $(`<div id="html_b2b71a387b3139e742ee7859d7ab0ae8" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_52fb07bc0c970256be4b665bfae2df09.setContent(html_b2b71a387b3139e742ee7859d7ab0ae8);
+        
+
+        marker_ded135370792970e91f572f46c9377e1.bindPopup(popup_52fb07bc0c970256be4b665bfae2df09)
+        ;
+
+        
+    
+    
+            var marker_eb6f8eac8355648b1d9e84942b80c374 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_1957c8e7dfb8ac9281912d6ed230a1b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7ed377febb0077a8a6967f4819602b8 = $(`<div id="html_c7ed377febb0077a8a6967f4819602b8" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_1957c8e7dfb8ac9281912d6ed230a1b5.setContent(html_c7ed377febb0077a8a6967f4819602b8);
+        
+
+        marker_eb6f8eac8355648b1d9e84942b80c374.bindPopup(popup_1957c8e7dfb8ac9281912d6ed230a1b5)
+        ;
+
+        
+    
+    
+            var marker_b76b51a6d8de1ce2e6bd828d871f2425 = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_43fb97f25b1b07557bae0a2e8a7d3574 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94d67fcb94841699d3ccc33df624f421 = $(`<div id="html_94d67fcb94841699d3ccc33df624f421" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_43fb97f25b1b07557bae0a2e8a7d3574.setContent(html_94d67fcb94841699d3ccc33df624f421);
+        
+
+        marker_b76b51a6d8de1ce2e6bd828d871f2425.bindPopup(popup_43fb97f25b1b07557bae0a2e8a7d3574)
+        ;
+
+        
+    
+    
+            var marker_b2d58f40a16d3474377eb5e4ee8d844f = L.marker(
+                [12.8797, 121.774],
+                {}
+            ).addTo(map_47e769acbb6c83ef0a80b4ad2ada967b);
+        
+    
+        var popup_79e924f899e78431088cd83679755214 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af2e19fa71f515e09212f33ede904ce4 = $(`<div id="html_af2e19fa71f515e09212f33ede904ce4" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     —<br>     <i>Date of Disappearance:</i> nan<br>     <a href="nan" target="_blank">More Info</a>     </div>`)[0];
+            popup_79e924f899e78431088cd83679755214.setContent(html_af2e19fa71f515e09212f33ede904ce4);
+        
+
+        marker_b2d58f40a16d3474377eb5e4ee8d844f.bindPopup(popup_79e924f899e78431088cd83679755214)
+        ;
+
+        
+    
+</script>
+</html>
